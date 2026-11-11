@@ -1,0 +1,136 @@
+/*.question{
+    text-align: center;
+    color: rgb(210, 247, 0);
+}
+.quiz {
+    width: fit-content;
+    margin-left: 800px;
+    text-align: center;
+    background-color: rgb(42, 116, 182);
+    border: 3px solid rgb(0, 200, 214);   /* толщина, стиль, цвет 
+    border-radius: 15px;
+}
+
+.body {
+    background-color: black;
+}
+
+.answer {
+    background-color: aquamarine;
+    border: 3px solid rgb(229, 255, 0); 
+} 
+*/
+.secondry {
+    width: 255px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.OTDELNO {
+    display: flex;
+    justify-content: center;
+}
+.h1 {
+    background-color: aqua;
+    border: 3px solid rgb(0, 200, 214);
+    width: 255px;
+    border-radius: 15px;
+    border: 3;
+}
+
+.ready {
+    background-color: rgb(90, 110, 109);
+    border: 3px solid rgb(73, 97, 99);
+    width: 255px;
+    border-radius: 15px;
+    border: 3;
+    
+}
+
+.SecondReady {
+    width: 250px;
+    border: 3px solid rgb(73, 97, 99);
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.secondry5{
+    margin-left: auto;
+}
+.GetBack {
+    margin-left: 150px;
+    background-color: linear-gradient(to right, #7ee40b, #1d06ee);
+    border-color: #05eea8;
+}
+.TryClass {
+    background: transparent;
+    border: #ddd;
+}
+.Fox { 
+    width: 500px;
+    margin: 0 center;
+    border: 3px;
+    border-radius: 10px;
+    
+}
+.Fox {
+  transition: transform 0.3s ease;  /* плавность изменения */
+
+}
+
+.Fox:hover {
+  transform: scale(1.1);  /* увеличивает на 10% */
+
+}
+
+.bodyT {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #05eea8, #75bcd4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.Window {
+    background: transparent;
+}
+
+.BodyHomaPage {
+    background: linear-gradient(to right, #1db889, #75bcd4);
+}
+
+.BodyMainPage {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, black, yellow);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.bodyAnimation {
+    background-image: url('images/66a6d670c16c052bb9d5f3898669afae.jpg');
+    background-size: cover; 
+}
+
+#Scroll {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 100;
+}
+.forBorder { 
+    width: 1680px;
+    border: 1px solid black;
+}
+
+#mouse {
+    font-size: 25px;
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+    z-index: 100;
+}
